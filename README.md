@@ -20,3 +20,8 @@ $ TAILSCLAE_AUTH_KEY=<your auth key> nix build --impure
 $ ls ./result/iso
 nixos.iso
 ```
+
+## References
+
+- [Tailscale on NixOS: A new Minecraft server in ten minutes](https://tailscale.com/blog/nixos-minecraft)
+- [nix-community/nixos-generators](https://github.com/nix-community/nixos-generators)

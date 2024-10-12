@@ -1,3 +1,11 @@
+> [!CAUTION]
+> **This project is not secure.**
+> 
+> When you evaluate this Nix expression, Nix will store the tailscale auth key specified in the expression to the Nix store.
+> [The Nix store is not a suitable place for including plaintext secrets.](https://github.com/ryantm/agenix?tab=readme-ov-file#problem-and-solution)
+
+# tailscale-iso-nix
+
 NixOS ISO image that automatically connects to Tailscale with auth key
 
 ## Requirements
